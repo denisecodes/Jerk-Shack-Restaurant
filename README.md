@@ -1,4 +1,4 @@
-# CFG-Javascript-Group-Project
+# CFG Javascript Group Project
 
 # Getting Started with Create React App
 
