@@ -1,3 +1,17 @@
+/* General Footer */
+
+.footer {
+    background-color: #B6E2A1;
+}
+
+h3 {
+    font-family: 'Chelsea Market', cursive;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+/* Bottom footer  */
+
 .footer-links {
     font-family: 'Piazzolla', serif;
     text-transform: uppercase;
@@ -7,7 +21,7 @@
 }
 
 .footer-link-text {
-    margin: 10px;
+    padding: 0 10px;
 }
 
 .social-media {
@@ -16,7 +30,7 @@
 }
 
 .social-icons {
-    margin: 10px;
+    padding: 0 10px;
 }
 
 .footer-bottom {
@@ -24,3 +38,58 @@
     justify-content: space-around;
     align-items: center;
 }
+
+/* Flex box newletter area so it's responsive */
+
+/* Top footer */
+.footer-top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Newsletter */
+
+.newsletter {
+    margin: 80px 0;
+}
+
+.newsletter-items {
+    padding: 5px;
+    margin: 5px;
+}
+
+#email {
+    width: 450px;
+    font-family: 'Piazzolla', serif;
+    text-transform: lowercase;
+}
+
+#subscribe {
+    width: 450px;
+    height: 40px;
+    font-family: 'Chelsea Market', cursive;
+    text-transform: uppercase;
+    font-size: 20px;
+    background-color: #B6E2A1;
+}
+
+#subscribe:hover {
+    background-color: #F5F5F5;
+  }
+
+/* Contact Us */
+
+.contact-text {
+    margin: 10px 0;
+    font-family: 'Piazzolla', serif;
+    text-transform: lowercase;
+    font-size: 15px;
+}
+
+.contact-us {
+    font-family: 'Chelsea Market', cursive;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
