@@ -1,0 +1,17 @@
+#navbar {
+    font-family: 'Chelsea Market', cursive, sans-serif;
+    font-size: 25px;
+    background-color: #F7A4A4;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+#nav-home {
+    color: #A9A7A7;
+}
+
+.nav-items {
+    padding: 10px;
+}
+
