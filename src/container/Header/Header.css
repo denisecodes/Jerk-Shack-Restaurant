@@ -1,16 +1,17 @@
 .header {
-    /* background-image: url("../assets/welcome.png"); */
+    background-image: url("../../assets/caribbean_food.jpeg");
     background-size: cover;
     background-position: center;
+    /* This will center the text within the section */
+    text-align: center; 
 }
 
 h1 {
     font-family: 'Chelsea Market', cursive;
     font-size: 50px;
-    text-align: center;
     color: white;
-    background-color: #FFFBC1;
-    /* Creates outline */
+    padding: 200px 0 100px;
+    /* Creates outline for text */
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
@@ -27,9 +28,11 @@ button {
     text-transform: uppercase; 
     color: white;
     padding: 10px;
+    margin: 0 0 200px;
+    border-color: black;
 }
 
 button:hover {
-    background-color: #F5F5F5;
+    background-color: #B6E2A1;
     border-color: black;
 }
