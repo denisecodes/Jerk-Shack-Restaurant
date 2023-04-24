@@ -37,6 +37,7 @@ h3 {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    /* Fixed the extra white spacing by adding padding at the bottom */
     padding: 0 0 80px;
 }
 
