@@ -1,0 +1,26 @@
+.footer-links {
+    font-family: 'Piazzolla', serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    display: flex;
+    justify-content: flex-end; 
+}
+
+.footer-link-text {
+    margin: 10px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.social-icons {
+    margin: 10px;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
