@@ -1,0 +1,23 @@
+/* Button */
+
+.button-container {
+    text-align: center;
+}
+  
+button {
+    display: inline-block;
+    background-color: #FEBE8C;
+    border-color: #FEBE8C;
+    font-family: 'Chelsea Market', cursive;
+    font-size: 30px;
+    text-transform: uppercase; 
+    color: white;
+    padding: 10px;
+    margin: 0 0 200px;
+    border-color: black;
+}
+
+button:hover {
+    background-color: #B6E2A1;
+    border-color: black;
+}

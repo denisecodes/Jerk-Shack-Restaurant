@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from './Button';
 
 import './Header.css';
 
@@ -7,7 +8,7 @@ const Header = () => (
     <h1>Caribbean Food Delights<br />
     Delivered Striaght to You</h1>
     <div class="button-container">
-    <button type="submit">10% off First Visit</button>
+    <Button message="10% off First Visit" />
     </div>
   </section>
 );
