@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 
 import './index.css';
 import App from './App';
-import Contact from './pages/Contact';
+import Contact from './pages/Contact/Contact';
 
 import {
     createBrowserRouter,
