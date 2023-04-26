@@ -8,7 +8,7 @@ function Contact() {
       <div>
         <section id="contact">
         <h2>Contact Us</h2>
-        <p>
+        <p id="description">
           Lorem ipsum dolor sit amet consectetur adipiscing elit tortor proin suscipit tempor, 
           orci at nam sed nibh egestas conubia eros praesent risus tellus vel, 
           ut primis fermentum metus est vitae aenean parturient magnis aptent. 
