@@ -17,15 +17,15 @@ function Contact() {
           interdum mauris cras ligula blandit neque varius montes.
         </p>
         <form>
-          <div class="contact-form">
-          <input class="contact-items" type="text" id="fname" name="firstname" placeholder="First Name" required /><br />
-          <input class="contact-items" type="text" id="lname" name="lastname" placeholder="Last Name" required /><br />
-          <input class="contact-items" type="text" id="phone" name="phone" placeholder="Phone  No" required /><br />
-          <input class="contact-items" type="email" id="email" name="email" placeholder="Email" required /><br />
-          <textarea class="contact-items" id="message" name="message" placeholder="Write your message here..." required></textarea><br />
+          <div className="contact-form">
+          <input className="contact-items" type="text" id="fname" name="firstname" placeholder="First Name" required /><br />
+          <input className="contact-items" type="text" id="lname" name="lastname" placeholder="Last Name" required /><br />
+          <input className="contact-items" type="text" id="phone" name="phone" placeholder="Phone  No" required /><br />
+          <input className="contact-items" type="email" id="email" name="email" placeholder="Email" required /><br />
+          <textarea className="contact-items" id="message" name="message" placeholder="Write your message here..." required></textarea><br />
           </div>
-          <div class="button-container">
-            <button class="" id="submit" type="submit">Submit</button>
+          <div className="button-container">
+            <button className="" id="submit" type="submit">Submit</button>
           </div>
         </form>
         </section>

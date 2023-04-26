@@ -4,9 +4,9 @@ import './AboutUs.css';
 
 
 const AboutUs = () => (
-  <section class="about-us">
+  <section className="about-us">
     <h3 id="about-us-heading">About Us</h3>
-      <div class="photo-description">
+      <div className="photo-description">
       <img id="about-us-photo" src={teamPhoto} alt="our-team" />
       <p id="about-us-description">
       Lorem ipsum dolor sit amet consectetur adipiscing elit egestas et, 
