@@ -13,7 +13,7 @@ const Footer = () => (
     </div>
     <div class="contact">
       <h3 class="contact-text contact-us">Contact Us</h3>
-      <p><a href="#email"><span class="contact-text">hello@jerkshack.com</span></a><br />
+      <p><a id="email-us" href="mailto:hello@jerkshack.com"><span class="contact-text">hello@jerkshack.com</span></a><br />
       <span class="contact-text">+44 7706 394 271</span><br />
       <span class="contact-text">222 great london street, london, ec32 7rf</span></p>
     </div>
