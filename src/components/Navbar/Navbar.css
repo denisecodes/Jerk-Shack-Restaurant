@@ -29,6 +29,6 @@ li {
     float: left;
 }
 
-a:hover {
+#navbar a:hover {
     color: #FEBE8C;
 }
