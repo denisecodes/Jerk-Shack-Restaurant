@@ -1,16 +1,34 @@
 #navbar {
     font-family: 'Chelsea Market', cursive;
     font-size: 25px;
+    text-align: center;
     background-color: #F7A4A4;
     display: flex;
     justify-content: center;
     padding: 50px;
+    overflow: hidden;
 }
 
 #nav-home {
     color: #A9A7A7;
 }
 
+#nav-home:hover {
+    color: #FEBE8C;
+}
+
 .nav-items {
     padding: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    float: left;
+}
+
+a:hover {
+    color: #FEBE8C;
 }

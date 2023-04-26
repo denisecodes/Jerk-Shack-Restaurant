@@ -8,12 +8,6 @@ h2 {
     text-align: center;
 }
 
-#description {
-    font-family: 'Piazzolla', serif;
-    font-size: 15px;
-    padding: 0 300px;
-}
-
 
 /* Contact form */
 .contact-form {
@@ -22,10 +16,34 @@ h2 {
     font-size: 15px;
 }
 
+/* Contact Us */
+#contact-us-text {
+    padding: 180px 0 50px;
+}
+
+/* Para below contact us */
+
+#description {
+    font-family: 'Piazzolla', serif;
+    font-size: 15px;
+    width: 30%;
+    margin: auto;
+}
+
+/* First name */
+
+#fname {
+    margin: 50px 0 0;
+}
+
 /* Contact form items */
 .contact-items {
-    margin: 5px 0;
+    margin: 10px 0;
     width: 420px;
+    height: 30px;
+    font-family: 'Piazzolla', serif;
+    font-size: 15px;
+    padding: 5px 0;
 }
 
 /* Email */
@@ -41,7 +59,6 @@ h2 {
 
 #message {
     height: 200px;
-    /* width: 450px; */
 }
 
 /* Submit button */
@@ -59,11 +76,19 @@ h2 {
     text-transform: uppercase; 
     color: white;
     padding: 10px;
-    margin: 0 0 200px;
+    margin: 10px 0 200px;
     border-color: black;
+    width: 420px;
 }
 
 #submit:hover {
     background-color: #B6E2A1;
     border-color: black;
+}
+
+/* Mobile Design CSS  */
+@media (max-width: 768px) {
+    #description {
+        width: 50%;
+    }
 }

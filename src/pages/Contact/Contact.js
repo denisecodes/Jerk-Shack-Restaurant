@@ -7,7 +7,7 @@ function Contact() {
     <MainLayout>
       <div>
         <section id="contact">
-        <h2>Contact Us</h2>
+        <h2 id="contact-us-text">Contact Us</h2>
         <p id="description">
           Lorem ipsum dolor sit amet consectetur adipiscing elit tortor proin suscipit tempor, 
           orci at nam sed nibh egestas conubia eros praesent risus tellus vel, 
@@ -25,7 +25,7 @@ function Contact() {
           <textarea class="contact-items" id="message" name="message" placeholder="Write your message here..." required></textarea><br />
           </div>
           <div class="button-container">
-            <button class="contact-items" id="submit" type="submit">Submit</button>
+            <button class="" id="submit" type="submit">Submit</button>
           </div>
         </form>
         </section>

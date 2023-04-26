@@ -1,0 +1,28 @@
+.about-us {
+    background-color: #FFFBC1;
+    padding: 150px 0;
+}
+
+#about-us-heading {
+    text-align: center;
+    font-size: 40px;
+}
+
+#about-us-photo {
+    width: 600px;
+    padding: 0 50px;
+}
+
+.photo-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0 0;
+}
+
+#about-us-description {
+    padding: 0 20px;
+    width: 30%;
+    font-family: 'Piazzolla', serif;
+    font-size: 15px; 
+}
