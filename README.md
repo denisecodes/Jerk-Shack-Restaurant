@@ -8,6 +8,8 @@
       <li><a href="#project">The project</a></li>
       <li><a href="#setup">Project Setup</a></li>
       <li><a href="#filestructure">File Structure</a></li>
+      <li><a href="design">Design</a></li>
+      <li><a href="wireframes">Wireframes</a></li>
       <li><a href="#links">Links</a></li>
     </ul>
   </li>
@@ -191,6 +193,29 @@ This folder is main folder where we have stored media files, components, contain
 │   └── setupTests.js
 └── yarn.lock
 ```
+
+### Design
+
+<ul>
+  <li><a href="https://www.figma.com/">Figma</a> was used to build initial wireframes for the website.</li>
+  <li><a href="https://colorhunt.co/">Color Hunt</a> was used to find a colour palette to suit the Caribbean theme of the website</li>
+  <li>Website inspiration was mainly taken from <a href="https://www.cottons-restaurant.co.uk/">Cotton</a>, a Caribbean Restaurant.</li>
+</ul>
+
+
+### Wireframes
+
+<div>
+  <img width="360" alt="homepage" src="https://user-images.githubusercontent.com/119052310/234862605-ddf7bf9e-f053-4a04-a34c-e30a6f2be27f.png">
+  <img width="360" alt="menu" src="https://user-images.githubusercontent.com/119052310/234862635-47a940cc-a3e8-4e76-9d3b-f0efce6632b5.png">
+  <img width="360" alt="menu" src="https://user-images.githubusercontent.com/119052310/234864628-9e3f09ad-657d-4d2f-9f30-975425cf9854.png">  
+</div>
+
+### Links
+<ul>
+  <li><a href="https://github.com/denisecodes/CFG-Javascript-Group-Project">Repository</li>
+  <li><a href="">Live Site URL</a></li>
+</ul> 
 
 # Getting Started with Create React App
 
