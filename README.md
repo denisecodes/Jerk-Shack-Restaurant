@@ -252,6 +252,10 @@ npm run start
 The page will run in development mode in [http://localhost:3000](http://localhost:3000) where you can view it in your browser.
 
 
+
+
+
+
 <!-- Comment out original read me from react  -->
 <!-- # Getting Started with Create React App
 
