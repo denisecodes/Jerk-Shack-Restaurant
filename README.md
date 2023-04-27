@@ -7,7 +7,7 @@
     <ul>
       <li><a href="#project">The project</a></li>
       <li><a href="#setup">Project Setup</a></li>
-      <li><a href="#screenshot">Screenshot</a></li>
+      <li><a href="#filestructure">File Structure</a></li>
       <li><a href="#links">Links</a></li>
     </ul>
   </li>
@@ -80,6 +80,84 @@ This folder is main folder where we have stored media files, components, contain
   <li>The App.js file is used to render the homepage of the website.</li>
   <li>The index.js file, we have implemented a router to create different paths to access different pages on the website.</li>
 </ul>
+
+### File Structure (To edit as this won't be the final one - code to get the tree directory: tree -L 4 -I node_modules)
+
+```
+.
+├── README.md
+├── package-lock.json
+├── package.json
+├── public
+│   ├── android-chrome-512x512.png
+│   ├── apple-touch-icon-ipad-76x76.png
+│   ├── apple-touch-icon-ipad-retina-152x152.png
+│   ├── apple-touch-icon-iphone-60x60.png
+│   ├── apple-touch-icon-iphone-retina-120x120.png
+│   ├── apple-touch-icon.png
+│   ├── favicon.ico
+│   ├── index.html
+│   ├── manifest.json
+│   └── robots.txt
+├── src
+│   ├── App.css
+│   ├── App.js
+│   ├── App.test.js
+│   ├── assets
+│   │   ├── G.png
+│   │   ├── award01.png
+│   │   ├── award02.png
+│   │   ├── award03.png
+│   │   ├── award05.png
+│   │   ├── bg.png
+│   │   ├── caribbean_food.jpeg
+│   │   ├── chef.png
+│   │   ├── constants
+│   │   ├── findus.png
+│   │   ├── gallery01.png
+│   │   ├── gallery02.png
+│   │   ├── gallery03.png
+│   │   ├── gallery04.png
+│   │   ├── knife.png
+│   │   ├── laurels.png
+│   │   ├── logo.png
+│   │   ├── meal.mp4
+│   │   ├── menu.png
+│   │   ├── overlaybg.png
+│   │   ├── quote.png
+│   │   ├── sign.png
+│   │   ├── spoon.png
+│   │   ├── spoon.svg
+│   │   ├── team.jpg
+│   │   └── welcome.png
+│   ├── components
+│   │   ├── Footer
+│   │   ├── Menuitem
+│   │   ├── Navbar
+│   │   ├── SubHeading
+│   │   └── index.js
+│   ├── container
+│   │   ├── AboutUs
+│   │   ├── Chef
+│   │   ├── Findus
+│   │   ├── Footer
+│   │   ├── Gallery
+│   │   ├── Header
+│   │   ├── Intro
+│   │   ├── Laurels
+│   │   ├── Menu
+│   │   └── index.js
+│   ├── index.css
+│   ├── index.js
+│   ├── layout
+│   │   └── MainLayout.js
+│   ├── logo.svg
+│   ├── pages
+│   │   └── Contact
+│   ├── reportWebVitals.js
+│   └── setupTests.js
+└── yarn.lock 
+```
 
 # Getting Started with Create React App
 
