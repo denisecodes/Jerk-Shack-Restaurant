@@ -5,7 +5,7 @@
 <ul>
   <li><a href="#overview">Overview</a>
     <ul>
-      <li><a href="#project">The project</a></li>
+      <li><a href="#the-project">The project</a></li>
       <li><a href="#setup">Project Setup</a></li>
       <li><a href="#filestructure">File Structure</a></li>
       <li><a href="design">Design</a></li>
