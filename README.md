@@ -6,16 +6,16 @@
   <li><a href="#overview">Overview</a>
     <ul>
       <li><a href="#the-project">The project</a></li>
-      <li><a href="#setup">Project Setup</a></li>
-      <li><a href="#filestructure">File Structure</a></li>
+      <li><a href="#project-setup">Project Setup</a></li>
+      <li><a href="#files-tructure">File Structure</a></li>
       <li><a href="design">Design</a></li>
       <li><a href="wireframes">Wireframes</a></li>
       <li><a href="#links">Links</a></li>
     </ul>
   </li>
-  <li><a href="#instructions">General Instructions</a>
+  <li><a href="#general-instructions">General Instructions</a>
     <ul>
-      <li><a href="#built">Built with</a></li>
+      <li><a href="#built-with">Built with</a></li>
       <li><a href="#getting-started">Getting Started</a></li>
       <li><a href="#prerequisites">Prerequisites</a></li>
       <li><a href="#installing">Installing</a></li>
