@@ -3,7 +3,7 @@
 ## Table of contents
 
 <ul>
-  <li><a href="https://github.com/denisecodes/CFG-Javascript-Group-Project/edit/main/README.md#overview">Overview</a>
+  <li><a href="#overview">Overview</a>
     <ul>
       <li><a href="#project">The project</a></li>
       <li><a href="#setup">Project Setup</a></li>
@@ -59,6 +59,27 @@ We used the [MosCow method](https://www.parkersoftware.com/blog/software-develop
 - [ ] Pop Up Messages (Events, Announcements)
 - [ ] Customer Service Chat Bot
 - [ ] Dark Mode
+
+### Project Setup 
+
+We used GitHub Desktop to collaborate on work asychronously. In our file structure, we have divided the main set up into two folders with <b>public</b> and <b>src</b>.
+
+<b>public</b> 
+
+This folder is where we have stored the icons and the base html file where we have imported Google Font and Font Awesome scripts to run the web app. 
+
+<b>src</b> 
+
+This folder is main folder where we have stored media files, components, containers and pages to run the website. 
+<ul>
+  <li>In the <b>assets</b> folder, you can find the images and any other media files used.</li>
+  <li>In the <b>components</b> folder, you can find components such as Navbar to render the web app.</li>
+  <li>In the <b>container</b> folder, you can find sections to render parts of the website such as About Us on our homepage.</li>
+  <li>In the <b>layout</b> folder, you can find a file named "MainLayout.js" used as the base file to render other pages in the website such as the Contact page.</li>
+  <li>In the <b>pages</b> folder, you can find files used to render different pages in our web app.</li>
+  <li>The App.js file is used to render the homepage of the website.</li>
+  <li>The index.js file, we have implemented a router to create different paths to access different pages on the website.</li>
+</ul>
 
 # Getting Started with Create React App
 
