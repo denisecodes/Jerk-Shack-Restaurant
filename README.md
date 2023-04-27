@@ -197,8 +197,8 @@ This folder is main folder where we have stored media files, components, contain
 ### Design
 
 <ul>
-  <li><a href="https://www.figma.com/">Figma</a> was used to build initial wireframes for the website.</li>
   <li><a href="https://colorhunt.co/">Color Hunt</a> was used to find a colour palette to suit the Caribbean theme of the website</li>
+  <li><a href="https://fonts.google.com/">Google Fonts</a> was used to find fonts to suit the Caribbean theme</li>
   <li>Inspiration was mainly taken from <a href="https://www.cottons-restaurant.co.uk/">Cottons Restaurant</a>, a Caribbean Franchise Restaurant in London.</li>
 </ul>
 
