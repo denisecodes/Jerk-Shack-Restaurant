@@ -5,7 +5,7 @@ import './Header.css';
 
 const Header = () => (
   <section class="header">
-    <h1>Caribbean Food Delights<br />
+    <h1 id="header-text">Caribbean Food Delights<br />
     Delivered Striaght to You</h1>
     <div class="button-container">
     <Button message="10% off First Visit" />

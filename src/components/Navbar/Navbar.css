@@ -1,12 +1,23 @@
-#navbar {
+.navbar {
     font-family: 'Chelsea Market', cursive;
     font-size: 25px;
+    display: flex;
+    justify-content: center;
     text-align: center;
     background-color: #F7A4A4;
     display: flex;
     justify-content: center;
     padding: 50px;
     overflow: hidden;
+}
+
+.navbar a {
+    color: black;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: #FEBE8C;
 }
 
 #nav-home {
@@ -21,16 +32,12 @@
     padding: 20px;
 }
 
-ul {
+.navbar-list {
     list-style: none;
 }
 
-li {
+.navbar-items {
     float: left;
-}
-
-#navbar a:hover {
-    color: #FEBE8C;
 }
 
 /* Mobile Design CSS */
