@@ -113,6 +113,9 @@ This folder is main folder where we have stored media files, components, contain
 │   │   ├── caribbean_food.jpeg
 │   │   ├── chef.png
 │   │   ├── constants
+│   │   │   ├── data.js
+│   │   │   ├── images.js
+│   │   │   └── index.js
 │   │   ├── findus.png
 │   │   ├── gallery01.png
 │   │   ├── gallery02.png
@@ -132,20 +135,48 @@ This folder is main folder where we have stored media files, components, contain
 │   │   └── welcome.png
 │   ├── components
 │   │   ├── Footer
+│   │   │   ├── FooterOverlay.css
+│   │   │   ├── FooterOverlay.jsx
+│   │   │   ├── Newsletter.css
+│   │   │   └── Newsletter.jsx
 │   │   ├── Menuitem
+│   │   │   ├── MenuItem.css
+│   │   │   └── MenuItem.jsx
 │   │   ├── Navbar
+│   │   │   ├── Navbar.css
+│   │   │   └── Navbar.jsx
 │   │   ├── SubHeading
+│   │   │   └── SubHeading.jsx
 │   │   └── index.js
 │   ├── container
 │   │   ├── AboutUs
+│   │   │   ├── AboutUs.css
+│   │   │   └── AboutUs.jsx
 │   │   ├── Chef
+│   │   │   ├── Chef.css
+│   │   │   └── Chef.jsx
 │   │   ├── Findus
+│   │   │   └── FindUs.jsx
 │   │   ├── Footer
+│   │   │   ├── Footer.css
+│   │   │   └── Footer.jsx
 │   │   ├── Gallery
+│   │   │   ├── Gallery.css
+│   │   │   └── Gallery.jsx
 │   │   ├── Header
+│   │   │   ├── Button.css
+│   │   │   ├── Button.jsx
+│   │   │   ├── Header.css
+│   │   │   └── Header.jsx
 │   │   ├── Intro
+│   │   │   ├── Intro.css
+│   │   │   └── Intro.jsx
 │   │   ├── Laurels
+│   │   │   ├── Laurels.css
+│   │   │   └── Laurels.jsx
 │   │   ├── Menu
+│   │   │   ├── SpecialMenu.css
+│   │   │   └── SpecialMenu.jsx
 │   │   └── index.js
 │   ├── index.css
 │   ├── index.js
@@ -154,9 +185,11 @@ This folder is main folder where we have stored media files, components, contain
 │   ├── logo.svg
 │   ├── pages
 │   │   └── Contact
+│   │       ├── Contact.css
+│   │       └── Contact.js
 │   ├── reportWebVitals.js
 │   └── setupTests.js
-└── yarn.lock 
+└── yarn.lock
 ```
 
 # Getting Started with Create React App
