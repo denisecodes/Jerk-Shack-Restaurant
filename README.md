@@ -217,6 +217,41 @@ This folder is main folder where we have stored media files, components, contain
   <li><a href="">Live Site URL</a></li>
 </ul> 
 
+## General Instructions
+
+### Built with
+<ul>
+  <li><a href="https://www.figma.com/">Figma</a> - A cloud-based design tool</li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5">HTML5</a> - The web framework used</li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a> - The styling language used</li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">Javascript</a> - The programming language used</li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started">React</a> - The front-end framework used</li>
+</ul>
+
+### Getting started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+
+### Prerequisites
+TO BE FILLED!
+
+### Installing
+
+Before you can run the app, you will need to install the node_modules folder by running the following in your terminal:
+
+```
+npm install
+```
+
+Then you can run the app by typing the following in your terminal:
+
+```
+npm run start
+```
+
+The page will run in development mode in [http://localhost:3000](http://localhost:3000) where you can view it in your browser.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
