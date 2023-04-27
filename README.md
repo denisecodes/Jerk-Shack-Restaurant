@@ -206,9 +206,9 @@ This folder is main folder where we have stored media files, components, contain
 ### Wireframes
 
 <div>
-  <img width="360" alt="homepage" src="https://user-images.githubusercontent.com/119052310/234862605-ddf7bf9e-f053-4a04-a34c-e30a6f2be27f.png">
-  <img width="360" alt="menu" src="https://user-images.githubusercontent.com/119052310/234862635-47a940cc-a3e8-4e76-9d3b-f0efce6632b5.png">
-  <img width="360" alt="menu" src="https://user-images.githubusercontent.com/119052310/234864628-9e3f09ad-657d-4d2f-9f30-975425cf9854.png">  
+  <img width="300" alt="homepage" src="https://user-images.githubusercontent.com/119052310/234862605-ddf7bf9e-f053-4a04-a34c-e30a6f2be27f.png">
+  <img width="300" alt="menu" src="https://user-images.githubusercontent.com/119052310/234862635-47a940cc-a3e8-4e76-9d3b-f0efce6632b5.png">
+  <img width="300" alt="menu" src="https://user-images.githubusercontent.com/119052310/234864628-9e3f09ad-657d-4d2f-9f30-975425cf9854.png">  
 </div>
 
 ### Links
