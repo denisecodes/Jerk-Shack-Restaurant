@@ -64,7 +64,7 @@ We used the [MosCow method](https://www.parkersoftware.com/blog/software-develop
 
 ### Project Setup 
 
-We used GitHub Desktop to collaborate on work asychronously. In our file structure, we have divided the main set up into two folders with <b>public</b> and <b>src</b>.
+We used GitHub Desktop to collaborate and work asychronously. In our file structure, we have divided the main set up into two folders with <b>public</b> and <b>src</b>.
 
 <b>public</b> 
 
