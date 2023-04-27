@@ -73,7 +73,7 @@ This folder is where we have stored the icons and the base html file where we ha
 This folder is main folder where we have stored media files, components, containers and pages to run the website. 
 <ul>
   <li>In the <b>assets</b> folder, you can find the images and any other media files used.</li>
-  <li>In the <b>components</b> folder, you can find components such as Navbar to render the web app.</li>
+  <li>In the <b>components</b> folder, you can find reusable components such as Navbar to render the web app.</li>
   <li>In the <b>container</b> folder, you can find sections to render parts of the website such as About Us on our homepage.</li>
   <li>In the <b>layout</b> folder, you can find a file named "MainLayout.js" used as the base file to render other pages in the website such as the Contact page.</li>
   <li>In the <b>pages</b> folder, you can find files used to render different pages in our web app.</li>
