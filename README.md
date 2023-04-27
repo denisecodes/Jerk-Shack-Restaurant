@@ -1,5 +1,25 @@
 # CFG Javascript Group Project
 
+## Table of contents
+
+<ul>
+    <li>Overview
+        <li>The project</li>
+        <li>Project Setup</li>
+        <li>Screeshot</li>
+        <li>Links</li>
+    </li>General Instructions
+        <li>Built with</li>
+        <li>Geting Started</li>
+        <li>Prerequisites</li>
+        <li>Installing</li>
+        <li>Deployment</li>
+    </li>
+    <li>Authors</li>
+    <li>Acknowledgements</li>
+    <li>Contact Us</li>
+</ul>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

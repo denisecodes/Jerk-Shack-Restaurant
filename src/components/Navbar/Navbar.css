@@ -32,3 +32,9 @@ li {
 #navbar a:hover {
     color: #FEBE8C;
 }
+
+/* Mobile Design CSS */
+
+@media (max-width: 768px) {
+
+}
