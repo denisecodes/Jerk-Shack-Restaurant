@@ -1,24 +1,64 @@
-# CFG Javascript Group Project
+# Jerk Shack Restaurant
 
 ## Table of contents
 
 <ul>
-    <li>Overview
-        <li>The project</li>
-        <li>Project Setup</li>
-        <li>Screeshot</li>
-        <li>Links</li>
-    </li>General Instructions
-        <li>Built with</li>
-        <li>Geting Started</li>
-        <li>Prerequisites</li>
-        <li>Installing</li>
-        <li>Deployment</li>
-    </li>
-    <li>Authors</li>
-    <li>Acknowledgements</li>
-    <li>Contact Us</li>
+  <li><a href="https://github.com/denisecodes/CFG-Javascript-Group-Project/edit/main/README.md#overview">Overview</a>
+    <ul>
+      <li><a href="#project">The project</a></li>
+      <li><a href="#setup">Project Setup</a></li>
+      <li><a href="#screenshot">Screenshot</a></li>
+      <li><a href="#links">Links</a></li>
+    </ul>
+  </li>
+  <li><a href="#instructions">General Instructions</a>
+    <ul>
+      <li><a href="#built">Built with</a></li>
+      <li><a href="#getting-started">Getting Started</a></li>
+      <li><a href="#prerequisites">Prerequisites</a></li>
+      <li><a href="#installing">Installing</a></li>
+      <li><a href="#deployment">Deployment</a></li>
+    </ul>
+  </li>
+  <li><a href="#authors">Authors</a></li>
+  <li><a href="#acknowledgements">Acknowledgements</a></li>
+  <li><a href="#contact">Contact Us</a></li>
 </ul>
+
+## Overview
+
+### The project
+A collaborative attempt to create a Caribbean Restaurant Website as part of Code First Girls' Coding Kickstarter Javascript Course. We built a web app to allow users to book a reservation, contact the restaurant and see a picture gallery of the dishes and restaurant. 
+
+We used the [MosCow method](https://www.parkersoftware.com/blog/software-development-and-the-moscow-method/) to set out our goals for this project. </br>
+
+<b>Must Have</b>
+- [ ] Book a reservation
+- [ ] Picture gallery of food and restaurant
+- [x] Navagation Bar
+- [ ] Responsiveness
+- [x] Footer 
+
+<b>Should Have</b>
+- [ ] Pre-order Food from the Menu
+- [ ] Lucky Draw Discount
+- [ ] Web accessibility
+- [ ] Walk-In Queuing Tickets
+- [ ] Payments
+
+<b>Could Have</b>
+- [ ] Feedback
+- [ ] Meal kits
+- [ ] Subscribe to Blog for Recipes
+- [ ] Allergy Information
+- [ ] Calorie Information
+- [ ] Calorie Calculator
+- [ ] FAQ
+
+<b>Wont Have</b>
+- [ ] Pop Up Messages (Events, Announcements)
+- [ ] Customer Service Chat Bot
+- [ ] Dark Mode
 
 # Getting Started with Create React App
 
