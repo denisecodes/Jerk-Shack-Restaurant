@@ -1,13 +1,13 @@
-.navbar {
-    font-family: 'Chelsea Market', cursive;
-    font-size: 25px;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    background-color: #F7A4A4;
+.navbar-wrapper {
     display: flex;
     justify-content: center;
     padding: 50px;
+    background-color: #F7A4A4;
+}
+
+.navbar {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 25px;
     overflow: hidden;
 }
 
