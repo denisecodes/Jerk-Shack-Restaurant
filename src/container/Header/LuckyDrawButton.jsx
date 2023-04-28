@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import './LuckyDrawButton.css'
 
-// Try and implement a prompt when discount button is pressed! 
-
 // Discount options 
 const discounts = ["10% off First Visit", "1 Free Belizean Fudge", "Buy 1 Get 1 Jerk Chicken"];
 
@@ -17,7 +15,7 @@ const LuckyDrawButton = (props) => {
   // Use getRandomDiscount function, then prompt user for the email address and return the lucky discount chosen
   function luckyDraw() {
     getRandomDiscount();
-    prompt(`Your Discount is: ${discounts[discount]}\nEnter your email address: `);
+    prompt(`Your Discount is ${discounts[discount]}\nEnter your email address: `);
   }
 
   return (
