@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import './LuckyDrawButton.css'
 
+// Try and implement a prompt when discount button is pressed! 
+
 // Discount options 
 const discounts = ["10% off First Visit", "1 Free Belizean Fudge", "Buy 1 Get 1 Jerk Chicken"];
 
