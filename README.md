@@ -40,10 +40,11 @@ We used the [MosCow method](https://www.parkersoftware.com/blog/software-develop
 - [x] Navagation Bar
 - [ ] Responsiveness
 - [x] Footer 
+- [x] Contact page
 
 <b>Should Have</b>
 - [ ] Pre-order Food from the Menu
-- [ ] Lucky Draw Discount
+- [x] Lucky Draw Discount
 - [ ] Web accessibility
 - [ ] Walk-In Queuing Tickets
 - [ ] Payments
