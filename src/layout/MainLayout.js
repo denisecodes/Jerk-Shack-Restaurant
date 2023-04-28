@@ -1,6 +1,6 @@
 import React from 'react'
 import { Navbar } from '../components'
-import { Footer } from '../container'
+import { Footer } from '../components'
 
 
 function MainLayout({children}) {

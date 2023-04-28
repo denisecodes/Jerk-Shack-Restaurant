@@ -1,5 +1,5 @@
 import React from 'react';
-import Button from "../../components/Button/Button";
+import Button from "../Button/Button";
 import './SubscribeButton.css'
 
 function SubscribeButton(props) {
