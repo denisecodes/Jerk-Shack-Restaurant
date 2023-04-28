@@ -10,7 +10,6 @@ const Footer = () => (
       <form>
       <input className="newsletter-items" type="email" id="subscribe-email" name="email" placeholder="you@emailaddress.com" required /><br />
       <SubscribeButton className="newsletter-items" type="submit" id="subscribe" message="subscribe" />
-      {/* <button className="newsletter-items" type="submit" id="subscribe">Subscribe</button> */}
       </form>
     </div>
     <div className="contact">

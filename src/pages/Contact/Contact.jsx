@@ -3,7 +3,7 @@ import MainLayout from '../../layout/MainLayout'
 import './Contact.css'
 import SubmitButton from './SubmitButton'
 
-function Contact() {
+const Contact = () => {
   return (
     <MainLayout>
       <div>
@@ -27,13 +27,12 @@ function Contact() {
           </div>
           <div className="button-container">
             <SubmitButton id="submit" type="submit" message="Submit" />
-            {/* <button className="" id="submit" type="submit">Submit</button> */}
           </div>
         </form>
         </section>
       </div>
     </MainLayout>
   )
-}
+};
 
 export default Contact
