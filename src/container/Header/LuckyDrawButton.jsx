@@ -4,7 +4,7 @@ import './LuckyDrawButton.css'
 
 function LuckyDrawButton(props) {
   return (
-    <Button id={props.id} message={props.message} />
+    <Button id={props.id} type={props.type} message={props.message} />
   )
 };
 

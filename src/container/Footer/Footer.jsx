@@ -1,5 +1,6 @@
 import React from 'react';
 import './Footer.css';
+import SubscribeButton from './SubscribeButton';
 
 const Footer = () => (
   <section className="footer">
@@ -8,7 +9,8 @@ const Footer = () => (
       <h3 className="newsletter-items" id="newsletter-text">Sign Up for All the Latest News & Events</h3>
       <form>
       <input className="newsletter-items" type="email" id="subscribe-email" name="email" placeholder="you@emailaddress.com" required /><br />
-      <button className="newsletter-items" type="submit" id="subscribe">Subscribe</button>
+      <SubscribeButton className="newsletter-items" type="submit" id="subscribe" message="subscribe" />
+      {/* <button className="newsletter-items" type="submit" id="subscribe">Subscribe</button> */}
       </form>
     </div>
     <div className="contact">
