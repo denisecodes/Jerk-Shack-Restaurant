@@ -1,6 +1,7 @@
 import React from 'react'
 import MainLayout from '../../layout/MainLayout'
 import './Contact.css'
+import SubmitButton from './SubmitButton'
 
 function Contact() {
   return (
@@ -25,7 +26,8 @@ function Contact() {
           <textarea className="contact-items" id="message" name="message" placeholder="Write your message here..." required></textarea><br />
           </div>
           <div className="button-container">
-            <button className="" id="submit" type="submit">Submit</button>
+            <SubmitButton id="submit" type="submit" message="Submit" />
+            {/* <button className="" id="submit" type="submit">Submit</button> */}
           </div>
         </form>
         </section>
