@@ -1,6 +1,5 @@
 import React from 'react';
-import Button from './Button';
-
+import LuckyDrawButton from './LuckyDrawButton';
 import './Header.css';
 
 const Header = () => (
@@ -8,7 +7,7 @@ const Header = () => (
     <h1 id="header-text">Caribbean Food Delights<br />
     Delivered Striaght to You</h1>
     <div class="button-container">
-    <Button message="10% off First Visit" />
+      <LuckyDrawButton id="lucky-draw" message="10% off First Visit" />
     </div>
   </section>
 );
