@@ -7,16 +7,21 @@ import './LuckyDrawButton.css'
 const discounts = ["10% off First Visit", "1 Free Belizean Fudge", "Buy 1 Get 1 Jerk Chicken"];
 
 const LuckyDrawButton = (props) => {
-  const [discount, setWord] = useState(0); // set initial state to 0
+  const [discount, setDiscount] = useState(0); // set discount to 0 by default
 
-  // when user clicks discount button, discount array increases by 1 and returns the remainder divided by the array length
-  // hence when it reaches the end of the array, the remainder becomes 0 
-  function handleClick() {
-    setWord((discount + 1) % discounts.length);
+  //  Generate a random number between 0-2 to select a lucky discount 
+  function getRandomDiscount() {
+    setDiscount(Math.floor(Math.random() * 3));
+  }  
+
+  // Use getRandomDiscount function, then prompt user for the email address and return the lucky discount chosen
+  function luckyDraw() {
+    getRandomDiscount();
+    prompt(`Your Discount is: ${discounts[discount]}\nEnter your email address: `);
   }
 
   return (
-    <button onClick={handleClick} id={props.id} type={props.type}>{discounts[discount]}</button>
+    <button onClick={luckyDraw} id={props.id} type={props.type}>{props.message}</button>
   );
 };
 

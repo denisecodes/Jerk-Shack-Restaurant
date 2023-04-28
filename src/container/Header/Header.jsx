@@ -7,7 +7,7 @@ const Header = () => (
     <h1 id="header-text">Caribbean Food Delights<br />
     Delivered Striaght to You</h1>
     <div class="button-container">
-      <LuckyDrawButton id="lucky-draw" type="button" />
+      <LuckyDrawButton id="lucky-draw" type="button" message="Get a Lucky Discount" />
     </div>
   </section>
 );
