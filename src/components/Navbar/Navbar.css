@@ -1,47 +1,77 @@
-.navbar-wrapper {
+/* Navbar container */
+.navbar {
+    overflow: hidden;
+    background-color: #F7A4A4;
+    font-family: 'Chelsea Market', cursive;
     display: flex;
     justify-content: center;
-    padding: 50px;
-    background-color: #F7A4A4;
+    padding: 30px 0;
 }
-
-.navbar {
-    font-family: 'Chelsea Market', cursive;
-    font-size: 25px;
-    overflow: hidden;
-}
-
+  
+/* Links inside the navbar */
 .navbar a {
+    float: left;
+    font-size: 20px;
     color: black;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
 }
-
-.navbar a:hover {
-    color: #FEBE8C;
-}
-
-#nav-home {
-    color: #A9A7A7;
-}
-
-#nav-home:hover {
-    color: #FEBE8C;
-}
-
-.nav-items {
-    padding: 20px;
-}
-
-.navbar-list {
-    list-style: none;
-}
-
-.navbar-items {
+  
+/* The dropdown container */
+.dropdown {
     float: left;
+    overflow: hidden;
+}
+  
+/* Dropdown button */
+.dropdown .dropbtn {
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+}
+  
+/* Add an orangebackground color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #FEBE8C;
+}
+  
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #F7A4A4;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+/* Links inside the dropdown */
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+  
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #FEBE8C;
+}
+  
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
 }
 
-/* Mobile Design CSS */
-
-@media (max-width: 768px) {
-
+/* Home */
+#home {
+    color: #A9A7A7;
 }
