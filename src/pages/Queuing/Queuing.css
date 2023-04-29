@@ -1,0 +1,28 @@
+.queuing {
+    background-color: #FFFBC1;
+    padding: 100px 0;
+    font-family: 'Piazzolla', serif;
+    font-size: 15px;
+}
+
+.queuing-form {
+    width: 400px;
+    margin: auto;
+}
+
+.queuing-form-items {
+    padding: 10px 0;
+}
+
+#ticket-btn {
+    background-color: #FEBE8C;
+    border-color: #FEBE8C;
+    display: block;
+    margin: 10px auto 0;
+}
+
+#queuing-description {
+    width: 40%;
+    margin: auto;
+    padding: 20px 0;
+}
