@@ -13,20 +13,20 @@ function Navbar() {
   };
 
   return (
-    <nav className="navbar">
+    <nav className="my-navbar">
       <Link to="/" id="home">Home</Link>
       {/* Attempting to haslink about us section  */}
       <Link to="/#about-us">About</Link>
       <a href="#menu">Menu</a>
-      <div className="dropdown">
+      <div className="my-dropdown">
       {/* Step 2 */}
       {/* when the user clicks on "Bookings", if the isDropdownOpen is not true(false), then it changes isDropdownOpen to true */}
-        <button className="dropbtn" onClick={handleDropdownToggle}>
+        <button className="my-dropbtn" onClick={handleDropdownToggle}>
           Bookings <i className="fa fa-caret-down"></i>
         </button>
         {/* Step 3 */}
         {/* when isDropdownOpen is true, then show-content adds the dropdown-content class to the div  */}
-        <div className={`dropdown-content ${isDropdownOpen ? "show-content" : ""}`}> 
+        <div className={`my-dropdown-content ${isDropdownOpen ? "show-content" : ""}`}> 
           <a href="#reservation">Reservation</a>
           <Link to="/queuing">Queuing</Link>
         </div>
