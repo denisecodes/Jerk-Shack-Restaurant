@@ -11,6 +11,11 @@ import {
     RouterProvider,
   } from "react-router-dom";
 
+
+// Clear currentTicket number every time the web app compiles again
+localStorage.removeItem('currentTicket');
+
+
 const router = createBrowserRouter([
 {
     path: "/",
