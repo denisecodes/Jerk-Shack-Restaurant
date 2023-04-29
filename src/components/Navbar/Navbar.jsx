@@ -15,7 +15,8 @@ function Navbar() {
   return (
     <nav className="navbar">
       <Link to="/" id="home">Home</Link>
-      <a href="#about">About</a>
+      {/* Attempting to haslink about us section  */}
+      <Link to="/#about-us">About</Link>
       <a href="#menu">Menu</a>
       <div className="dropdown">
       {/* Step 2 */}
@@ -27,7 +28,7 @@ function Navbar() {
         {/* when isDropdownOpen is true, then show-content adds the dropdown-content class to the div  */}
         <div className={`dropdown-content ${isDropdownOpen ? "show-content" : ""}`}> 
           <a href="#reservation">Reservation</a>
-          <a href="#queuing">Queuing</a>
+          <Link to="/queuing">Queuing</Link>
         </div>
       </div>
       <a href="#blog">Blog</a>

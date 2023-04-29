@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import Contact from './pages/Contact/Contact';
+import Queuing from './pages/Queuing/Queuing';
 
 import {
     createBrowserRouter,
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
 {
     path: "contact",
     element: <Contact />,
+},
+{
+    path: "queuing",
+    element: <Queuing />,
 },
 ]);
 

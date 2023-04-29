@@ -7,7 +7,10 @@ const Queuing = () => {
   return (
     <MainLayout>
         <section className="queuing">
-            
+            {/* Name */}
+            {/* Phone */}
+            {/* Party size */}
+            <button>Get a Ticket</button>
         </section>
     </MainLayout>
   )
