@@ -1,5 +1,8 @@
 #contact {
     background-color: #FFFBC1;
+    padding: 100px 0;
+    font-family: 'Piazzolla', serif;
+    font-size: 15px;
 }
 
 h2 {
@@ -12,59 +15,31 @@ h2 {
 /* Contact form */
 .contact-form {
     text-align: center;
-    font-family: 'Piazzolla', serif;
-    font-size: 15px;
+    width: 400px;
+    margin: auto;
 }
 
-/* Contact Us */
-#contact-us-text {
-    padding: 180px 0 50px;
-}
 
 /* Para below contact us */
 
 #description {
-    font-family: 'Piazzolla', serif;
-    font-size: 15px;
     width: 30%;
     margin: auto;
-}
-
-/* First name */
-
-#fname {
-    margin: 50px 0 0;
+    padding: 20px 0;
 }
 
 /* Contact form items */
 .contact-items {
-    margin: 10px 0;
-    width: 420px;
-    height: 30px;
-    font-family: 'Piazzolla', serif;
-    font-size: 15px;
-    padding: 5px 0;
-}
-
-/* Email */
-
-#email {
-    width: 420px;
-    font-family: 'Piazzolla', serif;
-    font-size: 15px;
-    text-transform: capitalize;
-}
-
-/* Message box */
-
-#message {
-    height: 200px;
+    padding: 10px 0;
 }
 
 /* Submit button */
 
-.button-container {
-    text-align: center;
+#submit-btn {
+    background-color: #FEBE8C;
+    border-color: #FEBE8C;
+    display: block;
+    margin: 10px auto 0;
 }
 
 /* Mobile Design CSS  */

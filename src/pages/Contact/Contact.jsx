@@ -3,6 +3,10 @@ import MainLayout from '../../layout/MainLayout'
 import './Contact.css'
 import SubmitButton from './SubmitButton'
 
+// import Bootstrap
+import { Button, Form } from 'react-bootstrap/'
+import 'bootstrap/dist/css/bootstrap.min.css'
+
 const Contact = () => {
   return (
     <MainLayout>
@@ -17,18 +21,36 @@ const Contact = () => {
           nec platea condimentum torquent sollicitudin iaculis quis eu, 
           interdum mauris cras ligula blandit neque varius montes.
         </p>
-        <form>
-          <div className="contact-form">
-          <input className="contact-items" type="text" id="fname" name="firstname" placeholder="First Name" required /><br />
-          <input className="contact-items" type="text" id="lname" name="lastname" placeholder="Last Name" required /><br />
-          <input className="contact-items" type="text" id="phone" name="phone" placeholder="Phone  No" required /><br />
-          <input className="contact-items" type="email" id="email" name="email" placeholder="Email" required /><br />
-          <textarea className="contact-items" id="message" name="message" placeholder="Write your message here..." required></textarea><br />
-          </div>
-          <div className="button-container">
-            <SubmitButton id="submit" type="submit" message="Submit" />
-          </div>
-        </form>
+        <Form className="contact-form">
+          {/* First Name */}
+          <Form.Group className="contact-items" controlId="formFirstName">
+            <Form.Control type="text" placeholder="First Name" required />
+          </Form.Group>
+
+          {/* First Name */}
+          <Form.Group className="contact-items" controlId="formLastName">
+            <Form.Control type="text" placeholder="Last Name" required />
+          </Form.Group>
+
+          {/* Phone */}
+          <Form.Group className="contact-items" controlId="formPhone">
+            <Form.Control type="tel" placeholder="Phone No" required />
+          </Form.Group>
+
+          {/* Email */}
+          <Form.Group className="contact-items" controlId="formEmail">
+            <Form.Control type="email" placeholder="Email" required />
+          </Form.Group>
+
+          {/* Message */}
+          <Form.Group className="contact-items" controlId="formMessage">
+            <Form.Control as="textarea" rows={5} placeholder="Write your message here..." required />
+          </Form.Group>
+
+          <Button className="contact-items" id="submit-btn" variant="primary" type="submit">
+            Submit
+          </Button>
+        </Form>
         </section>
       </div>
     </MainLayout>
