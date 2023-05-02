@@ -22,6 +22,11 @@
     width: 100px;
 }
 
+#ticket-btn:hover {
+    background-color: #B6E2A1;
+    border-color: #B6E2A1;
+}
+
 #queuing-description {
     width: 40%;
     margin: auto;

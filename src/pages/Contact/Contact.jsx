@@ -1,7 +1,6 @@
 import React from 'react'
 import MainLayout from '../../layout/MainLayout'
 import './Contact.css'
-import SubmitButton from './SubmitButton'
 
 // import Bootstrap
 import { Button, Form } from 'react-bootstrap/'
