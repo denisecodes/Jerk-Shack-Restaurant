@@ -266,8 +266,13 @@ npm run start
 
 The page will run in development mode in [http://localhost:3000](http://localhost:3000) where you can view it in your browser.
 
+### Deployment
 
-
+## Authors
+<ul>
+  <li><b>Denise Chan</b> <i>-- Developer -</i> <a href="https://github.com/denisecodes">denisecodes</a></li>
+  <li><b>Grace Mavudzi</b> <i>-- Developer -</i> <a href="https://github.com/YourstrulyGiGi">YourstrulyGiGi</a></li>
+</ul>
 
 
 
