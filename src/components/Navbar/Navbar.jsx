@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import './Navbar.css';
 import { Link } from "react-router-dom";
-
+// Import HasLink to allow link to the about us section when on homepage
+import { HashLink } from 'react-router-hash-link';
 
 function Navbar() {
   // Step 1
@@ -16,7 +17,7 @@ function Navbar() {
     <nav className="my-navbar">
       <Link to="/" id="home">Home</Link>
       {/* Attempting to haslink about us section  */}
-      <Link to="/#about-us">About</Link>
+      <HashLink smooth to="#about-us">About</HashLink>
       <a href="#menu">Menu</a>
       <div className="my-dropdown">
       {/* Step 2 */}
@@ -39,4 +40,3 @@ function Navbar() {
 }
 
 export default Navbar;
-
