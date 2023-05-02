@@ -250,7 +250,6 @@ react-scripts@5.0.1
 react@18.2.0
 web-vitals@2.1.4
 ```
-
 ### Installing
 
 Before you can run the app, you will need to install the node_modules folder by running the following in your terminal:
