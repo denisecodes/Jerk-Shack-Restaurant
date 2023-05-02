@@ -252,13 +252,13 @@ web-vitals@2.1.4
 ```
 ### Installing
 
-Before you can run the app, you will need to install the node_modules folder by running the following in your terminal:
-
+Our application is using npm for package management. To install all the necessary package follow these steps:
+1. Install dependencies
 ```
 npm install
 ```
 
-Then you can run the app by typing the following in your terminal:
+Then launch the server
 
 ```
 npm run start
