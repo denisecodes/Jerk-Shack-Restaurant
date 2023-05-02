@@ -107,41 +107,20 @@ This folder is main folder where we have stored media files, components, contain
 │   ├── App.js
 │   ├── App.test.js
 │   ├── assets
-│   │   ├── G.png
-│   │   ├── award01.png
-│   │   ├── award02.png
-│   │   ├── award03.png
-│   │   ├── award05.png
-│   │   ├── bg.png
 │   │   ├── caribbean_food.jpeg
-│   │   ├── chef.png
 │   │   ├── constants
 │   │   │   ├── data.js
 │   │   │   ├── images.js
 │   │   │   └── index.js
-│   │   ├── findus.png
-│   │   ├── gallery01.png
-│   │   ├── gallery02.png
-│   │   ├── gallery03.png
-│   │   ├── gallery04.png
-│   │   ├── knife.png
-│   │   ├── laurels.png
-│   │   ├── logo.png
-│   │   ├── meal.mp4
-│   │   ├── menu.png
-│   │   ├── overlaybg.png
-│   │   ├── quote.png
-│   │   ├── sign.png
-│   │   ├── spoon.png
-│   │   ├── spoon.svg
-│   │   ├── team.jpg
-│   │   └── welcome.png
+│   │   └── team.jpg
 │   ├── components
+│   │   ├── Button
+│   │   │   └── Button.js
 │   │   ├── Footer
-│   │   │   ├── FooterOverlay.css
-│   │   │   ├── FooterOverlay.jsx
-│   │   │   ├── Newsletter.css
-│   │   │   └── Newsletter.jsx
+│   │   │   ├── Footer.css
+│   │   │   ├── Footer.jsx
+│   │   │   ├── SubscribeButton.css
+│   │   │   └── SubscribeButton.jsx
 │   │   ├── Menuitem
 │   │   │   ├── MenuItem.css
 │   │   │   └── MenuItem.jsx
@@ -160,17 +139,14 @@ This folder is main folder where we have stored media files, components, contain
 │   │   │   └── Chef.jsx
 │   │   ├── Findus
 │   │   │   └── FindUs.jsx
-│   │   ├── Footer
-│   │   │   ├── Footer.css
-│   │   │   └── Footer.jsx
 │   │   ├── Gallery
 │   │   │   ├── Gallery.css
 │   │   │   └── Gallery.jsx
 │   │   ├── Header
-│   │   │   ├── Button.css
-│   │   │   ├── Button.jsx
 │   │   │   ├── Header.css
-│   │   │   └── Header.jsx
+│   │   │   ├── Header.jsx
+│   │   │   ├── LuckyDrawButton.css
+│   │   │   └── LuckyDrawButton.jsx
 │   │   ├── Intro
 │   │   │   ├── Intro.css
 │   │   │   └── Intro.jsx
@@ -187,9 +163,12 @@ This folder is main folder where we have stored media files, components, contain
 │   │   └── MainLayout.js
 │   ├── logo.svg
 │   ├── pages
-│   │   └── Contact
-│   │       ├── Contact.css
-│   │       └── Contact.js
+│   │   ├── Contact
+│   │   │   ├── Contact.css
+│   │   │   └── Contact.jsx
+│   │   └── Queuing
+│   │       ├── Queuing.css
+│   │       └── Queuing.jsx
 │   ├── reportWebVitals.js
 │   └── setupTests.js
 └── yarn.lock
