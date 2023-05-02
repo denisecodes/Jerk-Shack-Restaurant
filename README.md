@@ -24,7 +24,7 @@
   </li>
   <li><a href="#authors">Authors</a></li>
   <li><a href="#acknowledgements">Acknowledgements</a></li>
-  <li><a href="#contact">Contact Us</a></li>
+  <li><a href="#resources">Resources</a></li>
 </ul>
 
 ## Overview
@@ -258,3 +258,16 @@ npm run build
   <li><b>Grace Mavudzi</b> <i>-- Developer -</i> <a href="https://github.com/YourstrulyGiGi">YourstrulyGiGi</a></li>
 </ul>
 
+## Acknowledgements
+<ul>
+  <li>This project came together thanks to the knowledge we learnt during the Code First Girls's Javascript Kickstarter Course. Shoutouts to our Instructors Tamsin, Akram and Joseph for their guidance and sharing their knowledge over the 8 weeks</li>
+</ul>
+
+## Resources
+<ul>
+  <li>Learning how to use relative file path helped a lot with importing components, this <a href="https://www.youtube.com/watch?v=hxto_sRZsBg&ab_channel=kootkot">video</a> on YouTube really helped us out</li>
+  <li>Followed this <a href="https://reactrouter.com/en/main/start/tutorial">tutorial</a> to set up React Router, which allowed us to have multiple pages in our webpage</li>
+  <li>Made use of <a href="https://www.freecodecamp.org/news/how-to-implement-vertical-scrolling-in-react-using-react-router-hash-link/">HashLink</a> to link to a different section of the same page</li>
+  <li>Learnt how to set up and use react-bootstrap framework using this <a href="https://www.youtube.com/watch?v=8pKjULHzs0s&ab_channel=AdrianTwarog">tutorial</a></li>
+  <li>Looked at other README files on GitHub and followed a <a href="https://www.youtube.com/watch?v=lnLWGN6dVJY&ab_channel=VideoGeek">video</a> on how to write a good README.md file</li>
+</ul>
