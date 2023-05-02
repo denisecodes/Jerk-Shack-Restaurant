@@ -234,7 +234,22 @@ This folder is main folder where we have stored media files, components, contain
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ### Prerequisites
-TO BE FILLED!
+
+What things you need to install the software and how to install them
+
+```
+@testing-library/jest-dom@5.16.5
+@testing-library/react@13.4.0
+@testing-library/user-event@13.5.0
+bootstrap@5.2.3
+react-bootstrap@2.7.4
+react-dom@18.2.0
+react-router-dom@6.10.0
+react-router-hash-link@2.4.3
+react-scripts@5.0.1
+react@18.2.0
+web-vitals@2.1.4
+```
 
 ### Installing
 
