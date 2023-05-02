@@ -46,7 +46,7 @@ We used the [MosCow method](https://www.parkersoftware.com/blog/software-develop
 - [ ] Pre-order Food from the Menu
 - [x] Lucky Draw Discount
 - [ ] Web accessibility
-- [ ] Walk-In Queuing Tickets
+- [x] Walk-In Queuing Tickets
 - [ ] Payments
 
 <b>Could Have</b>
