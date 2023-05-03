@@ -6,14 +6,14 @@ const Footer = () => (
   <section className="footer">
     <article className="footer-top">
     <div className="newsletter">
-      <h3 className="newsletter-items" id="newsletter-text">Sign Up for All the Latest News & Events</h3>
+      <h3 className="newsletter-items footer-headings" id="newsletter-text">Sign Up for All the Latest News & Events</h3>
       <form>
       <input className="newsletter-items" type="email" id="subscribe-email" name="email" placeholder="you@emailaddress.com" required /><br />
       <SubscribeButton className="newsletter-items" type="submit" id="subscribe" message="subscribe" />
       </form>
     </div>
     <div className="contact">
-      <h3 className="contact-text contact-us">Contact Us</h3>
+      <h3 className="footer-headings">Contact Us</h3>
       <p><a id="email-us" href="mailto:hello@jerkshack.com"><span className="contact-text">hello@jerkshack.com</span></a><br />
       <span className="contact-text">+44 7706 394 271</span><br />
       <span className="contact-text">222 great london street, london, ec32 7rf</span></p>
