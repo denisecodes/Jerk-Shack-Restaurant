@@ -8,8 +8,8 @@
       <li><a href="#the-project">The project</a></li>
       <li><a href="#project-setup">Project Setup</a></li>
       <li><a href="#files-tructure">File Structure</a></li>
-      <li><a href="design">Design</a></li>
-      <li><a href="wireframes">Wireframes</a></li>
+      <li><a href="#design">Design</a></li>
+      <li><a href="#wireframes">Wireframes</a></li>
       <li><a href="#links">Links</a></li>
     </ul>
   </li>
