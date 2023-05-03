@@ -28,7 +28,7 @@ const Queuing = () => {
       localStorage.setItem('currentTicket', currentTicket.toString());
     }, [currentTicket]);
 
-    // Create a reference object in the form, store null so the form is not valid by default
+    // Create a reference object in the form, initially set to null
     const formRef = useRef(null);
   
     // getTicket as the parameter, representing the event object being passed through the function
