@@ -260,7 +260,7 @@ npm run build
 
 ## Acknowledgements
 <ul>
-  <li>This project came together thanks to the knowledge we learnt during the Code First Girls's Javascript Kickstarter Course. Shoutouts to our Instructors Tamsin, Akram and Joseph for their guidance and sharing their knowledge over the 8 weeks</li>
+  <li>This project came together thanks to the knowledge we learnt during the Code First Girls's Javascript Kickstarter Course. Shoutouts to our Instructors Tamsin, Akram and Joseph for their guidance and sharing their knowledge over the 8 weeks!</li>
 </ul>
 
 ## Resources
