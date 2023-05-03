@@ -11,7 +11,7 @@ const Queuing = () => {
     // Make useState into a function to do the following:
     // Step 1: currentTicket number is retrieved from localStorage and stored into savedTicket
     // Step 2: check if there is a value in savedTicket
-    // Step 3: If true, savedTicket number is converted into integer
+    // Step 3: If true, savedTicket number is converted into integer 
     // Step 3: Else if false, 1 is assigned to currentTicket
     const [currentTicket, setCurrentTicket] = useState(() => {
       const savedTicket = localStorage.getItem('currentTicket');
@@ -21,7 +21,6 @@ const Queuing = () => {
     // Increase the ticket number by 1
     function increaseTicket() {
       setCurrentTicket(currentTicket + 1);
-      console.log(currentTicket);
     }
   
     // Store the currentTicket value in localStorage
@@ -32,6 +31,7 @@ const Queuing = () => {
     // Create a reference object in the form, store null so the form is not valid by default
     const formRef = useRef(null);
   
+    // getTicket as the parameter, representing the event object being passed through the function
     function handleSubmit(getTicket) {
       // Prevents page being reloaded if user clicks getTicket button
       getTicket.preventDefault();
