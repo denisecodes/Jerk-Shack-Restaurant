@@ -5,6 +5,7 @@ import { images, data } from '../../assets/constants';
 import './SpecialMenu.css'
 
 const SpecialMenu = () => (
+  <section className="special-menu">
   <div className="app__specialMenu flex__center section__padding" id="menu">
     <div className="app__specialMenu">
       <SubHeading title="Menu That Fits Your Pallate"/>
@@ -36,6 +37,7 @@ const SpecialMenu = () => (
     </div>
   </div>
   </div>
+  </section>
 );
 
 export default SpecialMenu;

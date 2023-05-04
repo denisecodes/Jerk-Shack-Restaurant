@@ -10,20 +10,13 @@ const AboutUs = () => (
         <div className="photo-description">
         <img id="about-us-photo" src={teamPhoto} alt="our-team" />
         <p id="about-us-description">
-        Lorem ipsum dolor sit amet consectetur adipiscing elit egestas et, 
-        platea eget natoque ante aliquet dictumst purus malesuada elementum, 
-        habitasse himenaeos gravida habitant neque est cras ad. 
-        Neque maecenas platea fermentum sociis nisl lobortis suscipit, 
-        tempus sagittis netus fringilla nullam potenti habitasse ligula, 
-        vel scelerisque faucibus lacus laoreet vulputate. 
-        Mollis porta penatibus eleifend pretium primis conubia suscipit, 
-        litora justo eros augue scelerisque proin arcu senectus, 
-        netus aliquet auctor ligula dictumst sociis. 
-        Justo mattis urna mollis nisi vivamus sodales iaculis pharetra vitae, 
-        cras varius eros penatibus tincidunt at natoque. 
-        Mi inceptos nec aliquam sociis velit vehicula eu felis massa etiam class, 
-        porta facilisi nam id natoque penatibus mus cum conubia tellus nibh, 
-        ullamcorper a iaculis congue ultricies molestie duis aenean magna senectus. 
+        Our menu is a carefully curated selection of Caribbean-inspired dishes, 
+        with subtle nods to many of the islands. We continually review and develop 
+        our dishes and we use our most important critics to do this – our teams! 
+        We hold bi-monthly food development days which can be joined by anyone. 
+        New recipe options are presented and we gather the expertise from our team members 
+        who have grown up on Caribbean staples to help guide the flavours and ingredients 
+        and ensure we continue to honour the heritage of the dishes.
         </p>
         </div>
     </section>

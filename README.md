@@ -36,7 +36,7 @@ We used the [MosCow method](https://www.parkersoftware.com/blog/software-develop
 
 <b>Must Have</b>
 - [ ] Book a reservation
-- [ ] Picture gallery of food and restaurant
+- [x] Picture gallery of food and restaurant
 - [x] Navagation Bar
 - [ ] Responsiveness
 - [x] Footer 

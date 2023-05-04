@@ -18,7 +18,7 @@ const Navbar = () => {
       <Link to="/" id="home">Home</Link>
       {/* Attempting to haslink about us section  */}
       <HashLink smooth to="#about-us">About</HashLink>
-      <a href="#menu">Menu</a>
+      <HashLink smooth to="#special-menu">Menu</HashLink>
       <div className="my-dropdown">
       {/* Step 2 */}
       {/* when the user clicks on "Bookings", if the isDropdownOpen is not true(false), then it changes isDropdownOpen to true */}
