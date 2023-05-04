@@ -84,7 +84,8 @@ This folder is main folder where we have stored media files, components, contain
   <li>The index.js file, we have implemented a router to create different paths to access different pages on the website.</li>
 </ul>
 
-### File Structure (To edit as this won't be the final one - code to get the tree directory: tree -L 4 -I node_modules)
+### File Structure 
+<!-- (To edit as this won't be the final one - code to get the tree directory: tree -L 4 -I node_modules) -->
 
 ```
 .
