@@ -89,27 +89,32 @@
 @media (max-width: 768px) {
     .footer-bottom {
         display: unset;
+        text-align: center;
     }
     .social-media {
         justify-content: center;
+        padding: 20px 0;
     }
     .footer-links {
-        justify-content: center;
-        font-size: 10px;
+        flex-direction: column;
+        padding: 20px 0;
     }
     .footer-top {
         display: unset;
+        text-align: center;
     }
     .newsletter {
         display: flex;
         justify-content: center;
         flex-direction: column;
         margin: auto;
+        padding: 20px 0;
     }
     .contact {
         display: flex;
         justify-content: center;
         flex-direction: column;
+        padding: 20px 0;
     }
   }
   

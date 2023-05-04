@@ -26,9 +26,9 @@ const Footer = () => (
         <a href="#tt"><i className="social-icons fa-brands fa-tiktok"></i></a>
       </div>
       <div className="footer-links">
-        <p><span className="footer-link-text">Jerk Shack Restaurant © 2023</span>
-        <a href="#privacy-policy"><span className="footer-link-text">Privacy Policy</span></a>
-        <a href="#terms-conditions"><span className="footer-link-text">Terms & Conditions</span></a></p>
+        <p><span className="footer-link-text">Jerk Shack Restaurant © 2023</span></p>
+        <p><a href="#privacy-policy"><span className="footer-link-text">Privacy Policy</span></a></p>
+        <p><a href="#terms-conditions"><span className="footer-link-text">Terms & Conditions</span></a></p>
       </div>
     </article>
   </section>
