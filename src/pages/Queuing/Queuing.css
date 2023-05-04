@@ -28,7 +28,14 @@
 }
 
 #queuing-description {
-    width: 40%;
+    width: 30%;
     margin: auto;
     padding: 20px 0;
+}
+
+/* Mobile Design CSS  */
+@media (max-width: 768px) {
+    #queuing-description {
+        width: 50%;
+    }
 }
