@@ -1,11 +1,11 @@
-import SubHeading from './SubHeading/SubHeading';
 import MenuItem from './Menuitem/MenuItem';
 import Navbar from './Navbar/Navbar';
 import Footer from './Footer/Footer'
+import SubHeading from './SubHeading/SubHeading';
 
 export {
-  SubHeading,
   MenuItem,
   Navbar,
-  Footer
+  Footer,
+  SubHeading
 };
