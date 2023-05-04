@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 // Import HasLink to allow link to the about us section when on homepage
 import { HashLink } from 'react-router-hash-link';
 
-function Navbar() {
+const Navbar = () => {
   // Step 1
   // sets isDropdownOpen to false by default so that the dropdown content is not shown
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
