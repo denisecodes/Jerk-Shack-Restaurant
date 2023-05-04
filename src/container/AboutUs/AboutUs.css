@@ -27,3 +27,20 @@
     font-family: 'Piazzolla', serif;
     font-size: 15px; 
 }
+
+
+/* Mobile Design CSS  */
+@media (max-width: 768px) {
+    .photo-description {
+        display: unset;
+    }
+    #about-us-photo {
+        margin: 50px 50px 0;
+        width: 80%;
+    }
+    #about-us-description {
+        margin: auto;
+        width: 60%;
+        padding: 80px 0 0;
+    }
+}
