@@ -54,7 +54,7 @@ const Queuing = () => {
               nec platea condimentum torquent sollicitudin iaculis quis eu, 
               interdum mauris cras ligula blandit neque varius montes.
             </p>
-            <h2 id="next-ticket">Your Ticket No: {currentTicket+1}</h2>
+            <h2 id="next-ticket">Next Ticket No: {currentTicket+1}</h2>
             <Form className="queuing-form" onSubmit={handleSubmit} ref={formRef}>
             {/* Name */}
               <Form.Group className="queuing-form-items" controlId="formName">
@@ -79,6 +79,7 @@ const Queuing = () => {
               <Button className="queuing-form-items" id="ticket-btn" variant="primary" type="submit">
                 Get Ticket
               </Button>
+
             </Form>
           </section>
       </MainLayout>
