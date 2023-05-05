@@ -224,7 +224,7 @@ This folder is main folder where we have stored media files, components, contain
 ### Links
 <ul>
   <li><a href="https://github.com/denisecodes/CFG-Javascript-Group-Project">Repository</li>
-  <li><a href="">Live Site URL</a></li>
+  <li><a href="https://jerk-shack-restaurant.netlify.app/">Live Site URL</a></li>
 </ul> 
 
 ## General Instructions
