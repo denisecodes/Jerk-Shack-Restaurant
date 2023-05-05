@@ -90,6 +90,29 @@ This folder is main folder where we have stored media files, components, contain
 ```
 .
 ├── README.md
+├── build
+│   ├── android-chrome-512x512.png
+│   ├── apple-touch-icon-ipad-76x76.png
+│   ├── apple-touch-icon-ipad-retina-152x152.png
+│   ├── apple-touch-icon-iphone-60x60.png
+│   ├── apple-touch-icon-iphone-retina-120x120.png
+│   ├── apple-touch-icon.png
+│   ├── asset-manifest.json
+│   ├── favicon.ico
+│   ├── index.html
+│   ├── manifest.json
+│   ├── robots.txt
+│   └── static
+│       ├── css
+│       │   ├── main.a950db5b.css
+│       │   └── main.a950db5b.css.map
+│       ├── js
+│       │   ├── main.38663b78.js
+│       │   ├── main.38663b78.js.LICENSE.txt
+│       │   └── main.38663b78.js.map
+│       └── media
+│           ├── caribbean_food.99d1412405a95e0deda8.jpeg
+│           └── team.1fadae52d0dca3bd7c7f.jpg
 ├── package-lock.json
 ├── package.json
 ├── public
@@ -113,6 +136,12 @@ This folder is main folder where we have stored media files, components, contain
 │   │   │   ├── data.js
 │   │   │   ├── images.js
 │   │   │   └── index.js
+│   │   ├── gallery01.png
+│   │   ├── gallery02.png
+│   │   ├── gallery03.png
+│   │   ├── gallery04.png
+│   │   ├── meal.mp4
+│   │   ├── menu.png
 │   │   └── team.jpg
 │   ├── components
 │   │   ├── Button
@@ -222,8 +251,10 @@ What things you need to install the software and how to install them
 @testing-library/react@13.4.0
 @testing-library/user-event@13.5.0
 bootstrap@5.2.3
+gh-pages@5.0.0
 react-bootstrap@2.7.4
 react-dom@18.2.0
+react-icons@4.8.0
 react-router-dom@6.10.0
 react-router-hash-link@2.4.3
 react-scripts@5.0.1
